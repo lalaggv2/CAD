@@ -1,0 +1,12 @@
+[core]
+	editor = \"C:\\Users\\CAD\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+	excludesfile = C:/Users/CAD/.gitignore_global
+	autocrlf = true
+[user]
+	name = L Angela G
+	email = luangu2020@gmail.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
