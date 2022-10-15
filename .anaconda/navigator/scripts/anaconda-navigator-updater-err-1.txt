@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\navigator_updater\widgets\dialogs\main_dialog.py", line 210, in setup
+    self.is_root_writable = info.get('root_writable', False)
+AttributeError: 'bytes' object has no attribute 'get'
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\navigator_updater\widgets\dialogs\main_dialog.py", line 210, in setup
+    self.is_root_writable = info.get('root_writable', False)
+AttributeError: 'bytes' object has no attribute 'get'
